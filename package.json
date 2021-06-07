@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/wangsu-liu/github-action-test.git"
   },
-  "author": "wangsu",
+  "author": "dev-wangsu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wangsu-liu/github-action-test/issues"
