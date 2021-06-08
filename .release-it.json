@@ -4,12 +4,12 @@
     "ignoreVersion": true
   },
   "git": {
-    "commitMessage": "chore: release v${version}"
-  },
-  "github": {
+    "commitMessage": "chore: release v${version}",
     "tag": true,
     "commit": true,
-    "push": false,
+    "push": false
+  },
+  "github": {
     "release": false
   }
 }
