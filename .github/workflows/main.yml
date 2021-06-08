@@ -22,7 +22,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+        with:
+          fetch-depth: 0
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - run: npm install
       # Runs a single command using the runners shell
       - name: npm run release
         run: |
@@ -31,3 +37,5 @@ jobs:
           echo YES
           echo YES
           echo YES
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
