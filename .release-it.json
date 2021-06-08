@@ -11,6 +11,8 @@
   },
   "github": {
     "release": false,
+    "commit": true,
+    "push": true,
     "tag": true
   }
 }
