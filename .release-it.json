@@ -5,11 +5,12 @@
   },
   "git": {
     "commitMessage": "chore: release v${version}",
-    "tag": false,
+    "tag": true,
     "commit": false,
     "push": false
   },
   "github": {
-    "release": false
+    "release": false,
+    "tag": true
   }
 }
