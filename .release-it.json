@@ -7,6 +7,9 @@
     "commitMessage": "chore: release v${version}"
   },
   "github": {
-    "release": true
+    "tag": true,
+    "commit": true,
+    "push": false,
+    "release": false
   }
 }
