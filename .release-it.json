@@ -5,8 +5,8 @@
   },
   "git": {
     "commitMessage": "chore: release v${version}",
-    "tag": true,
-    "commit": true,
+    "tag": false,
+    "commit": false,
     "push": false
   },
   "github": {
